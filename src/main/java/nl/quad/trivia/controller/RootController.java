@@ -8,6 +8,6 @@ public class RootController {
 
     @GetMapping("/")
     public String healthCheck() {
-        return "Trivia Backend is Running! Access API at /api/questions";
+        return "Trivia Backend is Running!";
     }
 }
